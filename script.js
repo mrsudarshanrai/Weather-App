@@ -1,3 +1,9 @@
+/*
+
+* @Created By:Shudarshan Rai
+  * @On Date: 19th January 2019, 8:32 AM
+  * @copyright 2019 shudarshan Rai
+*/
 window.onload=function(){
 
      document.getElementById("selectCity").value =  country_name[Math.floor(Math.random()*country_name.length)];;
