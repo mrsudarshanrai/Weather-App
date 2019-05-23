@@ -11,40 +11,35 @@
 font-family: 'PT Mono', monospace;
 }
 
-body{padding: 5px;}
-
-
-.container{
-
-
+body{
+ padding: 5px;
 }
 
-
 .weather{
-margin:0 auto;
-padding:10px;
-width:90%;
-border:2px solid #2196F3;
-border-radius:5px;
-background-color:#2196F3;
-color:#fff;
-box-shadow:2px 2px 15px 1px #03A9F4;
+ margin:0 auto;
+  padding:10px;
+   width:90%;
+    border:2px solid #2196F3;
+     border-radius:5px;
+      background-color:#2196F3;
+       color:#fff;
+        box-shadow:2px 2px 15px 1px #03A9F4;
 }
 
 
 .input-group-text{
-position:relative ;
-background-color: #4caf50;
-color: #fff;
-cursor: pointer;
+ position:relative ;
+  background-color: #4caf50;
+   color: #fff;
+    cursor: pointer;
 }
 
 
 
 #countryName{
-font-weight:bold;
-display:inline-block ;
-line-height:5px;
+ font-weight:bold;
+  display:inline-block ;
+   line-height:5px;
 }
 
 
@@ -57,7 +52,7 @@ line-height:5px;
 
 #currentWeather{
 font-weight:bold;
-font-size:1.6em;
+ font-size:1.6em;
 }
 
 
@@ -80,59 +75,17 @@ width:100px;
 }
 
 
-@media only screen and (min-width: 600px){
-.weather{
-width: 70%;
-}
-
-
-}
-
-
-
 #txt{
 font-weight:lighter;
-color:#aaa;
-
-line-height:0.9;
-font-size:15px;
+ color:#aaa;
+  line-height:0.9;
+   font-size:15px;
 
 }
 
-
-.weather{
-margin:0 auto;
-padding:10px;
-width:100%;
-border:2px solid #2196F3;
-border-radius:5px;
-background-color:#2196F3;
-color:#fff;
-box-shadow:2px 2px 15px 1px #03A9F4;
-}
-
-.input-group-text{
-position:relative ;
-background-color: #4caf50;
-color: #fff;
-cursor: pointer;
-}
-
-
-#countryName{
-font-weight:bold;
-display:inline-block ;
-line-height:5px;
-}
-
-
-span{
-line-height:5px;
-}
-
-
-
-#currentWeather{
-font-weight:bold;
-font-size:1.6em;
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+ .weather{
+ width:50%;
+ }
 }
