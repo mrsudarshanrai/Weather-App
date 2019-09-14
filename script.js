@@ -31,7 +31,7 @@ var country_name = [
         "Turkey",
          "London",
           "Germany",
-           "Kathmandu",
+           "Nepal",
              "Russian Federation",
               "Malaysia"
 ];
