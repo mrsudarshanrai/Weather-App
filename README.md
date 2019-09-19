@@ -5,7 +5,10 @@
 **It's results are fetch by API so cannot be 100% accurate**
 
 # Installation
-`git clone https://github.com/Shudarshan/Weather-App.git`
+`
+git clone https://github.com/Shudarshan/Weather-App.git
+
+`
 
 # Includes
 - images📂
