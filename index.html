@@ -1,69 +1,72 @@
 <html>
- <head>
 
-<!--
+<head>
+  <!--
   * @Created By:Shudarshan Rai
   * @On Date: 19th January 2019, 8:32 AM
   * @copyright 2019 shudarshan Rai
 -->
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="description" content="weather API powered by openweatherapi.org ">
   <meta name="keywords" content="HTML,CSS,jquery,JavaScript,jason">
   <meta name="author" content="Shudarshan Rai">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--JQUERY-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--JQUERY-->
+  <script src="scripts/jquery.min.js"></script>
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
 
-<!--BOOTSTRAP-->
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-
-
-<!--CSS-->
-<link rel="stylesheet" type="text/css" href="style.css">
-
-     <style>
-
-     </style>
- </head>
- 
 <body>
-<span id="txt">*City name bring good report then Country name.</span>
-<br />
- <div class="input-group mb-3">
-  <div class="input-group-prepend">
-    
-  </div>
-  <input type="text" class="form-control" id="selectCity" value="delhi" aria-describedby="basic-addon3">
-  <span class="input-group-text" id="click" onClick="t()">search</span>
-  
-</div>
-
-
-
-
-<div class="container">
-    <div class="weather">
-    <p id="countryName"></p>
-        <br>
-    <span id="today"></span><span id="time"></span><span id="weatherMessage"></span>
-    <br>
-    <br>
-    <span id="humidity"></span><br>
-     <span id="wind"></span>
-         <img id="wicon" src="https://3.bp.blogspot.com/-5cwwlLQu8bo/XECMHgIVzCI/AAAAAAAAJt8/ClauVHrwuoY57oxVizxGHNHpVv0xunkSwCLcBGAs/s1600/lg.liquid-fill-preloader.gif" width="40px" alt="Weather icon"><span id="currentWeather"></span>
+  <div class="container">
+    <div class="main-container">
+      <span id="note">*City name brings good result then Country name <br></span>
+      <input type="text" id="selectCity">
+      <button class="search">Search</button>
+      <div class="weather-info">
+        <div class="weather">
+          <div class="data">
+            <img src="images/golbe.png" width="50px">
+            <p class="countryName"></p>
+            <p class="cityName"></p>
+          </div>
+          <div class="data">
+            <img src="images/time.png" width="50px">
+            <p class="currenTime"></p>
+          </div>
+          <div class="data">
+            <img src="images/day.png" width="50px">
+            <p class="today"></p>
+          </div>
+          <div class="data">
+            <img src="images/temp.png" class="wicon" width="50px">
+            <p class="weatherMessage"></p>
+            <p class="currentWeather"></p>
+          </div>
+          <div class="data">
+            <img src="images/humidity.png" width="50px">
+            <p class="humidity"></p>
+          </div>
+          <div class="data">
+            <img src="images/wind.png" width="50px">
+            <p class="wind"></p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe width="100%" height="500" id="gmap" src="" frameborder="0" scrolling="no" marginheight="0"
+            marginwidth="0"></iframe>
+        </div>
+      </div>
     </div>
-</div>
-<br>
-<br>
-<button type="button" class="btn btn-info" onClick="alert('This is a simple weather Featching code powered by Openweathermap API.Some Reasult provided by API are not accurate.')">Info</button>
-<br />
-<iframe width="100%" height="500" id="gmap" src="" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <div class="copy">
+      <p>&copy; copyright 2019 Sudarshan Rai</p>
+      <span>powered by <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></span>
+    </div>
+  </div>
 
-
-<!--JAVASCRIPT,JQUERY-->
-<script src="script.js"></script>
-
-
+  <!--JAVASCRIPT,JQUERY-->
+  <script src="scripts/app.js"></script>
 </body>
+
 </html>
