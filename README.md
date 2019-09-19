@@ -26,5 +26,5 @@
 
 
 # Author
->https://github.com/Shudarshan
-https://www.instagram.com/shudarshan_offical/
+> https://github.com/Shudarshan
+> https://www.instagram.com/shudarshan_offical/
