@@ -7,14 +7,6 @@
 # Installation
 `git clone https://github.com/Shudarshan/Weather-App.git`
 
-# Includes
-- images📂
-- scripts📂
-- style📂
-- index.html📄
-- README.md📄
-- LICENSE📄
-
 # Author
 * https://github.com/Shudarshan
 * https://www.instagram.com/shudarshan_offical/
