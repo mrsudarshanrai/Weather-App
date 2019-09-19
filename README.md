@@ -9,21 +9,11 @@
 
 # Includes
 - images📂
-  - ..
-  - ..
 - scripts📂
-  - app.js📄
-  - jquery.min.js📄
 - style📂
-  - style.css📄
-
 - index.html📄
 - README.md📄
-
 - LICENSE📄
-
-
-
 
 # Author
 * https://github.com/Shudarshan
