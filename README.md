@@ -12,10 +12,10 @@
   - ..
   - ..
 - scripts📂
- - app.js📄
- - jquery.min.js📄
+  - app.js📄
+  - jquery.min.js📄
 - style📂
- - style.css📄
+  - style.css📄
 
 - index.html📄
 - README.md📄
@@ -26,5 +26,5 @@
 
 
 # Author
-> https://github.com/Shudarshan
-> https://www.instagram.com/shudarshan_offical/
+* https://github.com/Shudarshan
+* https://www.instagram.com/shudarshan_offical/
