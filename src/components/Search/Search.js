@@ -39,7 +39,7 @@ const Search = ({match}) => {
 
     useEffect(() => {
         (async () => {
-            const fetchWeather = await axios(`https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather`, {
+            const fetchWeather = await axios(`https://api.openweathermap.org/data/2.5/weather`, {
                 params: {
                     q: loc,
                     units: 'metric',

@@ -38,7 +38,7 @@ const Home = () => {
 
     useEffect(() => {
         (async () => {
-            const fetchLocation = await axios('http://ip-api.com/json/');
+            const fetchLocation = await axios('https://cors-anywhere.herokuapp.com/http://ip-api.com/json/');
             const loc = fetchLocation.data.city;
             const fetchWeather = await axios(`https://api.openweathermap.org/data/2.5/weather`, {
                 params: {
