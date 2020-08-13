@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+#note {
+  color: #fff;
+}
+
+.main-container {
+  width: 100%;
+  height: 170vh;
+  background: #6d83f2;
+  text-align: center;
+
+  input {
+    border: 0;
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    background: #6d83f2;
+    box-shadow: inset 3px 3px 6px #5d6fce, inset -3px -3px 6px #7d97ff;
+    outline: none;
+  }
+
+  button {
+    border: 0;
+    width: fit-content;
+    height: 30px;
+    padding: 0 30px 0 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 0 0 15px;
+    background: #6d83f2;
+    box-shadow: 3px 3px 6px #5d6fce, -3px -3px 6px #7d97ff;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+
+    &:active {
+      border-radius: 0px;
+      background: #6d83f2;
+      box-shadow: inset 3px 3px 6px #5d6fce, inset -3px -3px 6px #7d97ff;
+    }
+  }
+
+  .weather-info {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    .loader {
+      position: absolute;
+      left: 50%;
+      top: 6%;
+      transform: translate(-50%, -15%);
+      border-radius: 50px;
+      background: #6d83f2;
+      box-shadow: inset 20px 20px 60px #5d6fce, inset -20px -20px 60px #7d97ff;
+      padding: 100px;
+      border-radius: 100%;
+    }
+
+    .weather {
+      border-radius: 50px;
+      width: 50%;
+      height: 300px;
+      margin: 0 auto;
+      border-radius: 5px;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background: #6d83f2;
+      box-shadow: 20px 20px 60px #5d6fce, -20px -20px 60px #7d97ff;
+      .data {
+        display: grid;
+        place-items: center;
+        .circle_icon {
+          background: #fff;
+          border-radius: 100%;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .map {
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  iframe {
+    border-radius: 5px;
+  }
+
+  /* responsive code */
+  @media (max-width: 600px) {
+    .weather-info .weather {
+      grid-template-columns: repeat(2, 1fr);
+      width: 90%;
+    }
+
+    #selectcity {
+      width: 80%;
+    }
+
+    .map {
+      width: 95%;
+    }
+  }
+}
+.copy {
+  height: 40px;
+  text-align: center;
+  background: #6d83f2;
+  padding: 10px;
+}
