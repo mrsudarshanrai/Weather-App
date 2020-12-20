@@ -41,7 +41,7 @@ $('.search').click(() => {
   //openweathermap API and key
   //Please use your own API ,if your are working with this project 
   //This API is subscribed by SHUDARSHAN #author of this project
-  var apicall = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=af50bbd7309f973b6a2318253e78ad20";
+  var apicall = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=c31040535f2db82ab8aa9bc53255dea3";
   //API callback 
   $.getJSON(apicall, weatherCallback);
 
